@@ -1,3 +1,14 @@
+<!doctype html>
+<html>
+<head>
+  <title>Home page</title>
+</head>
 <body>
-  Hello World!!!
+  <h1>Home Page</h1>
+  <p>Hello World, My name is {{content}}</p>
+  {% for _ in range(5)%}
+  <p>These are iterations made in HTML using Flask</p>
+  <p>{{content}}</p>
+  {% endfor %}
 </body>
+</html>
